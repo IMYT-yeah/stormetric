@@ -38,7 +38,7 @@ alternative to GR for the relativistic astrophysics community.
 ```bash
 pip install stormetric       # (after the package is published)
 # or
-git clone https://github.com/<your-org>/stormetric.git
+git clone https://github.com/IMYT-yeah/stormetric.git
 cd stormetric
 pip install -e ".[dev]"
 ```
@@ -198,7 +198,7 @@ See [`CITATION.cff`](CITATION.cff).  BibTeX:
   title  = {Stormetric: Testing the Storm-Flow Exponential Relativistic Metric},
   year   = {2026},
   version = {0.2.0},
-  url    = {https://github.com/<your-org>/stormetric}
+  url    = {https://github.com/IMYT-yeah/stormetric}
 }
 ```
 

@@ -190,3 +190,24 @@ class Shadow:
             "eht_uncertainty": self.EHT_SIGMA,
             "deviation_in_sigma": (predicted - self.EHT_CENTRAL) / self.EHT_SIGMA,
         }
+
+
+# ─────────────────────────────────────────────────────────────────────
+# Module-level convenience functions (default exponential metric)
+# ─────────────────────────────────────────────────────────────────────
+def photon_sphere_radius() -> float:
+    """Photon-sphere radius in units of :math:`GM/c^2`.
+
+    Equivalent to ``Shadow(ExponentialMetric()).photon_sphere_radius()``;
+    for the storm-flow exponential metric this returns ``2.0``.
+    """
+    return Shadow(ExponentialMetric()).photon_sphere_radius()
+
+
+def shadow_radius() -> float:
+    """Shadow radius in units of :math:`GM/c^2` for the default metric.
+
+    Returns ``b_shadow ≈ 5.4366`` — the key observable compared with the
+    EHT measurement (``5.2 ± 0.3``, deviation ``+0.79σ``).
+    """
+    return Shadow(ExponentialMetric()).shadow_radius()
