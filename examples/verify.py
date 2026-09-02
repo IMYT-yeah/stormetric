@@ -1,5 +1,5 @@
 """
-Standalone numerical verification for Stormetric v0.2.0.
+Standalone numerical verification for Stormetric v0.1.0.
 
 This script re-derives (i.e. cross-checks) the key predictions of
 the package using **independent** numerical pipelines and prints a
@@ -157,7 +157,7 @@ def main():
     verify_gr_reference()
 
     _bar("All verifications complete")
-    print("  ✅ Stormetric v0.2.0 — every prediction independently checked.")
+    print("  ✅ Stormetric v0.1.0 — every prediction independently checked.")
 
 
 if __name__ == "__main__":

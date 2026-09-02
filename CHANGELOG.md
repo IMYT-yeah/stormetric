@@ -4,7 +4,7 @@ All notable changes to Stormetric are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and the project follows [Semantic Versioning](https://semver.org/).
 
-## [0.2.0] — 2026-09-02
+## [0.1.0] — 2026-09-02
 
 ### Added
 - `GRSchwarzschildIsotropic` metric class for direct GR reference.
@@ -33,9 +33,3 @@ and the project follows [Semantic Versioning](https://semver.org/).
   `theta=π/2` (equatorial plane), matching the shadow code path.
 - `Shadow._b_squared` no longer hard-codes the exponential form;
   it now reads `g_tt`/`g_rr` from the supplied `Metric` instance.
-
-## [0.1.0] — initial release
-
-- Exponential-metric shadow radius (analytic 2e).
-- PPN 1PN/2PN match, 3PN 4/3 signature.
-- Linear precession law δ = 0.30·x_p.

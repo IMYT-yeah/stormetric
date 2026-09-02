@@ -28,7 +28,7 @@ from stormetric import (
 
 def main():
     print("=" * 64)
-    print("  Stormetric — Storm-Flow Relativistic Metrics  (v0.2.0)")
+    print("  Stormetric — Storm-Flow Relativistic Metrics  (v0.1.0)")
     print("=" * 64)
 
     # ── 1. Metric (factory) ────────────────────────────────────────

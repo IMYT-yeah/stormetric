@@ -1,6 +1,6 @@
 [project]
 name = "stormetric"
-version = "0.2.0"
+version = "0.1.0"
 description = "A Python package for testing the storm-flow exponential metric against EMRI waveforms and BH shadow observations."
 readme = "README.md"
 requires-python = ">=3.9"

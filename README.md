@@ -141,7 +141,7 @@ solves this analytically:
 
 ```
 stormetric/
-├── pyproject.toml         # v0.2.0, requires-python>=3.9
+├── pyproject.toml         # v0.1.0, requires-python>=3.9
 ├── README.md
 ├── LICENSE                # MIT
 ├── CITATION.cff
@@ -197,7 +197,7 @@ See [`CITATION.cff`](CITATION.cff).  BibTeX:
   author = {Stormetric Authors},
   title  = {Stormetric: Testing the Storm-Flow Exponential Relativistic Metric},
   year   = {2026},
-  version = {0.2.0},
+  version = {0.1.0},
   url    = {https://github.com/IMYT-yeah/stormetric}
 }
 ```
