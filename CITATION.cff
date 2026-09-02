@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Stormetric"
+version: 0.2.0
+date-released: 2026-09-02
+license: MIT
+abstract: >
+  Stormetric is a Python package for testing the storm-flow exponential
+  relativistic metric against EMRI waveforms and black-hole shadow
+  observations.  It provides a PPN expansion (matching GR through
+  2PN, diverging at 3PN), a photon-sphere / shadow calculation
+  (b_shadow = 2e · GM/c^2 ≈ 5.437, compatible with the EHT
+  measurement 5.2 ± 0.3), and an EMRI pericenter-precession model
+  with a phenomenological coupling κ = 0.30 yielding a 1.6%
+  relative deviation from GR's leading-PN 6π·x_p result.
+keywords:
+  - general-relativity
+  - alternative-metrics
+  - EMRI
+  - LISA
+  - PPN
+  - black-hole-shadow
+  - EHT
