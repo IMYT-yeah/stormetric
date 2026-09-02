@@ -4,6 +4,15 @@ Demo: Stormetric quick-start example.
 Run from the repo root:  python examples/demo.py
 """
 
+import sys
+
+# Windows consoles default to cp1252, which cannot encode the emoji
+# used below. Force UTF-8 output so the demo runs on every platform.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 import numpy as np
 from stormetric import (
     ExponentialMetric,
