@@ -10,3 +10,12 @@ htmlcov/
 .venv/
 venv/
 *.npz
+
+# 环境变量与密钥文件（安全红线）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+config/*.local.*
